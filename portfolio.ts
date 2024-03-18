@@ -12,26 +12,26 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Malik Faisal",
+  title: "Hi all, I'm Malik",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "Malikfaisaly",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:malikfaisal.developer@gmail.com",
+  linkedin: "https://www.linkedin.com/in/malikfaisaly/",
+  github: "https://github.com/Malikfaisaly",
+  instagram: "https://www.instagram.com/malikfaisal.pk",
+  // facebook: 'https://www.facebook.com/malikfaisaly',
+  // twitter: 'https://twitter.com/malikfaisaly',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -91,11 +91,11 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
+    progressPercentage: "90", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
-    progressPercentage: "90",
+    progressPercentage: "84",
   },
   {
     Stack: "Programming",
@@ -105,9 +105,9 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
+    schoolName: "Allama Iqbal Open University",
     subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    duration: "September 2019 - April 2022",
     desc: "",
     grade: "Grade A",
     descBullets: [], // Array of Strings
@@ -153,23 +153,23 @@ export const projects: ProjectType[] = [
   {
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    // github: "https://github.com/1Malik100/developer-portfolio",
+    // link: "https://developer-portfolio-1Malik100.vercel.app/",
   },
   {
     name: "Giebo",
     desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    // link: "https://gibeo.io/",
   },
   {
     name: "O Mejor Oferta",
     desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    // link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
   },
   {
     name: "Hooligan Culture",
     desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    // link: "https://hooliganculture.com/",
   },
 ];
 
@@ -178,13 +178,13 @@ export const feedbacks: FeedbackType[] = [
     name: "Syed Jamal",
     role: "Frontend Developer at Meganos Software",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Malik is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
   },
   {
     name: "Wajahat Malek",
     role: "CEO at Duseca Software",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+      "Malik has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Malik is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Malik for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
   },
   {
     name: "Zaid Zaffar",
@@ -196,18 +196,18 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Malik Faisal",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Malik Faisal",
+  image: "/public/img/logo.png",
+  // url: "https://developer-portfolio-1Malik100.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Malik",
+    "Malik Faisal",
+    "@Malikfaisaly",
+    "Malikfaisal.pk",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Malik Portfolio ",
+    "Malik Faisal Portfolio",
   ],
 };
